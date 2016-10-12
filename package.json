@@ -1,0 +1,24 @@
+{
+  "name": "scratch-pad",
+  "version": "0.0.0",
+  "description": "small, unit tested functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "posttest": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamcharliegoddard/scratch-pad.git"
+  },
+  "author": "Charlie Goddard <charlie@iamcharliegoddard.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/iamcharliegoddard/scratch-pad/issues"
+  },
+  "homepage": "https://github.com/iamcharliegoddard/scratch-pad#readme",
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "mocha": "^3.1.2"
+  }
+}
